@@ -1,0 +1,68 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* define a cor da tela inteira*/
+
+body {
+    /*
+    background: #6e8fb5;
+    */
+    background-image: url("alex-ZR48YvUpk04-unsplash.jpg");
+    background-size: auto 123vh;
+    font-family: Arial;
+    height: 120vh;
+}
+
+
+/* define a cor da area menu*/
+
+.menu {
+    background-color: #00008B;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: #ffdd40;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*titulo e subtitulo*/
+
+.site-subtitle,
+.site-title {
+    color: #ffdd40;
+    text-align: center;
+}
+
+
+/*
+.site-subtitle {
+    font-style: italic;
+    margin: 20px;
+    border: 4px solid lightblue;
+    padding: 10px;
+    height: 100px;
+    width: auto;
+    box-shadow: 0px 10px 20px 1px whitesmoke;
+    box-sizing: border-box;
+}
+*/
